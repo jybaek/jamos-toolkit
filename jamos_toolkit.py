@@ -1,10 +1,4 @@
 #-*- coding: utf-8 -*-
-import argparse
-
-parser = argparse.ArgumentParser(description='Jamos separator')
-parser.add_argument('--string', default='안녕하세요. 날씨가 좋네요.', help='Please enter the string you want to separator.')
-args = parser.parse_args()
-
 class JamosSeparator():
     def __init__(self, string):
         self.string = string
@@ -33,12 +27,3 @@ class JamosSeparator():
 
     def get(self):
         return self.result
-
-def main():
-    jamos = JamosSeparator(args.string)
-    jamos.run()
-    print("org: \n> {0}\n".format(args.string))
-    print("jamos: \n> {0}\n".format(jamos.get()))
-
-if __name__ == '__main__':
-    main()
