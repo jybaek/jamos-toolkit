@@ -1,17 +1,16 @@
 #!/usr/bin/env python
-
 from setuptools import setup, find_packages
 
 setup(
     name             = 'jamos-toolkit',
-    version          = '1.4',
+    version          = '1.6',
     description      = 'Jamos separator',
     author           = 'Jaeyeon Baek',
     author_email     = 'oops.jybaek@gmail.com',
     url              = 'https://github.com/jybaek/jamos-toolkit',
     download_url     = '',
     install_requires = [],
-    packages         = find_packages(exclude=['test']),
+    packages         = find_packages(include=["jamostoolkit*"]),
     keywords         = ['jamos', 'toolkit', 'separator'],
     python_requires  = '>=3',
     package_data     = {},
