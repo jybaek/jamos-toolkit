@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 setup(
     name             = 'jamos-toolkit',
-    version          = '1.6',
+    version          = '1.7',
     description      = 'Jamos separator',
     author           = 'Jaeyeon Baek',
     author_email     = 'oops.jybaek@gmail.com',
