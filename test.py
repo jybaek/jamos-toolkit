@@ -1,6 +1,6 @@
 #-*- coding: utf-8 -*-
 import argparse
-from jamos_toolkit import JamosSeparator
+from jamostoolkit import JamosSeparator
 
 parser = argparse.ArgumentParser(description='Jamos toolkit')
 parser.add_argument('--string', default='안녕하세요. 날씨가 좋네요.', help='Please enter the string you want to separator.')
